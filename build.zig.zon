@@ -1,0 +1,40 @@
+.{
+    .name = .zodo,
+    .version = "0.0.0",
+    .fingerprint = 0xbad1c193ed20b3a4,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .sdl = .{
+            .url = "git+https://github.com/castholm/SDL.git#dbcb19aa3583c318556ecae3ecbeb29b102d37c5",
+            .hash = "sdl-0.6.0+3.4.18-SDL--p-gqAGWpnfTLlhs0dgjDtc4P4_CHeNLGY_SX_Fv",
+            .lazy = true,
+        },
+        .sdl_ttf = .{
+            .url = "https://github.com/libsdl-org/SDL_ttf/releases/download/release-3.2.2/SDL3_ttf-3.2.2.tar.gz",
+            .hash = "N-V-__8AAN_vfwAWmy8TsdmHaN_MvTITIWvTWPYyum-iS1Uf",
+            .lazy = true,
+        },
+        .sdl_image = .{
+            .url = "https://github.com/libsdl-org/SDL_image/releases/download/release-3.4.8/SDL3_image-3.4.8.tar.gz",
+            .hash = "N-V-__8AABGJswG8wX0EPSZi1PTUtxDW_CtWq9RcEM9oolaU",
+            .lazy = true,
+        },
+        .freetype = .{
+            .url = "https://github.com/freetype/freetype/archive/refs/tags/VER-2-15-0.tar.gz",
+            .hash = "N-V-__8AAH-MrwAf0TyUzzZD5HQjeEj7gW-BmhiGMR0yAzrJ",
+            .lazy = true,
+        },
+        .inter = .{
+            .url = "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip",
+            .hash = "N-V-__8AAAv-sAOXPycbcfSerQ5vsDx3k-PZC5fy2p9ScNi8",
+            .lazy = true,
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "assets",
+        "LICENSE",
+    },
+}

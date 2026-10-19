@@ -1,0 +1,22 @@
+{
+  "editor.rulers": [],
+
+  "files.exclude": {
+    "**/__pycache__/**": true,
+    ".zig-cache/**": true,
+    "zig-out/**": true,
+    "zig-pkg/**": true
+  },
+  "files.watcherExclude": {
+    "**/__pycache__/**": true,
+    ".zig-cache/**": true,
+    "zig-out/**": true,
+    "zig-pkg/**": true
+  },
+
+  "[zig]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
+}
